@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园墙</title>
+</head>
+<body>
+    <header>
+        <h1>永吉实验高级中学</h1>
+        <p>爱国博学，健体尽责</p>
+    </header>
+
+    <section>
+        <h2>发表新消息</h2>
+        <form id="messageForm">
+            <div>
+                <label for="messageName">姓名:</label>
+                <input type="text" id="messageName" name="name" placeholder="你的名字" required>
+            </div>
+            <div>
+                <label for="messageText">留言:</label>
+                <textarea id="messageText" name="message" rows="4" placeholder="你想说的话" required></textarea>
+            </div>
+            <div>
+                <button type="submit">发表</button>
+            </div>
+        </form>
+    </section>
+
+    <section>
+        <h2>消息板</h2>
+        <article id="messageBoard">
+            <!-- 消息将会在这里显示 -->
+            <div class="message">
+                <h3>我是神里绫华的狗</h3>
+                <p>0.0</p>
+            </div>
+            <div class="message">
+                <h3>风止</h3>
+                <p>今天的天气真好</p>
+            </div>
+            <!-- 更多消息 -->
+        </article>
+    </section>
+
+    <footer>
+        <p>永吉实验高级中学</p>
+    </footer>
+</body>
+</html>
